@@ -11,7 +11,7 @@ const Index = () => {
   return <Box sx={{px: [4], py: [4]}}>
     <Box sx={{fontSize: [5]}}>homepage</Box>
     <Link sx={{fontSize: [3]}} href='/blog'>blog</Link>
-    <Link sx={{fontSize: [3]}} href='/demos'>demos</Link>
+    <Link sx={{fontSize: [3]}} href='/blog/demos'>demos</Link>
     <Box>
     <Button onClick={toggle}>Toggle theme</Button>
     </Box>
