@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/blog/:match*",
-      "destination": "https://blog.jeremyfreeman.net/:match*"
+      "destination": "https://blog.jeremyfreeman.net/blog:match*"
     }
   ]
 }
