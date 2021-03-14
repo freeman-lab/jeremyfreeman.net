@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/blog/demos/:match*",
-      "destination": "https://demos.jeremyfreeman.net/:match*"
-    },
-    {
       "source": "/blog/:match*",
       "destination": "https://blog.jeremyfreeman.net/:match*"
     }
