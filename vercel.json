@@ -1,8 +1,8 @@
 {
-	"rewrites": [
-		{
-	      "source": "/blog/:match*",
-	      "destination": "https://blog.jeremyfreeman.net/:match*"
-	    }
-	]
+  "rewrites": [
+    {
+      "source": "/blog/:match*",
+      "destination": "https://blog.jeremyfreeman.net/:match*"
+    }
+  ]
 }
