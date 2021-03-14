@@ -9,9 +9,16 @@ const Index = () => {
   }, [colorMode])
 
   return <Box sx={{px: [4], py: [4]}}>
+    <Box>
+    <Link sx={{fontSize: [1]}} href='/'>home</Link>
+    </Box>
     <Box sx={{fontSize: [5]}}>homepage</Box>
+    <Box>
     <Link sx={{fontSize: [3]}} href='/blog'>blog</Link>
+    </Box>
+    <Box>
     <Link sx={{fontSize: [3]}} href='/blog/demos'>demos</Link>
+    </Box>
     <Box>
     <Button onClick={toggle}>Toggle theme</Button>
     </Box>
