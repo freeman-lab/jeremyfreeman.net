@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/blog/demos/:match*",
-      "destination": "https://demos.jeremyfreeman.net/demos:match*"
+      "destination": "https://demos.jeremyfreeman.net/blog/demos:match*"
     },
     {
       "source": "/blog/:match*",
