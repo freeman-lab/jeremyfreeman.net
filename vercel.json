@@ -1,5 +1,5 @@
 {
-  "routes": [
+  "rewrites": [
     {
       "source": "/blog/demos:match*",
       "destination": "https://demos.jeremyfreeman.net/blog/demos:match*"
